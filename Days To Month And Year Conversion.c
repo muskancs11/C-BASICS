@@ -1,7 +1,6 @@
 #include <stdio.h>
 int
-main ()
-{
+main (){
   int days, months, days_remaining, years, left_months;
   printf ("Enter Days To Convert:");
   scanf ("%d", &days);
