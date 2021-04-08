@@ -1,5 +1,6 @@
 #include<stdio.h>
-int main() {
+int main() 
+{
       int first, second, third;
       printf("ENTER FIRST NUMBER: ");
       scanf("%d", &first);
