@@ -6,6 +6,9 @@ int main()
 	scanf("%d",&a);
 	printf("ENTER SECOND NUMBER:\n");
 	scanf("%d",&b);
-	c=a/b;
-	printf("DIVISION OF ABOVE NUMBERS IS:""%d",c);
+	if (b==0){
+		printf("DIVIDE BY ZERO ERROR!!! EXITING");}
+	else{
+		c=a/b;
+		printf("DIVISION OF ABOVE NUMBERS IS:""%d",c)}
 }
